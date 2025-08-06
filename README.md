@@ -34,6 +34,10 @@ This is a Bash script designed to streamline the **initial setup of a fresh Linu
 ```bash
 wget -qO- https://raw.githubusercontent.com/sepehrgoodarzi6/ServerBootstrap/main/bootstrap.sh | bash
 ```
+**OR**
+```bash
+curl -sO https://raw.githubusercontent.com/sepehrgoodarzi6/ServerBootstrap/main/bootstrap.sh && chmod +x bootstrap.sh && ./bootstrap.sh
+```
 
 ## The script will:
 
