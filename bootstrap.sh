@@ -43,4 +43,4 @@ update_ssh_login_policy
 uncomment_force_color_prompt
 enable_case_insensitive_completion
 bash
-wget -q -O /root/vpn_manager.sh https://raw.githubusercontent.com/eylandoo/openvpn_webpanel_manager/main/vpn_manager.sh && chmod +x /root/vpn_manager.sh && /root/vpn_manager.sh
+echo "Done!"
