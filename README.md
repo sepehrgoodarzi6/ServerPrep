@@ -12,7 +12,6 @@ This is a Bash script designed to streamline the **initial setup of a fresh Linu
 - Automatically accepts host keys for a specific subnet (`10.200.200.*`)
 - Enables case-insensitive tab completion
 - Activates color prompt for root
-- Downloads and runs the VPN Manager script
 
 ## 📦 Packages Installed
 
@@ -48,8 +47,6 @@ curl -sO https://raw.githubusercontent.com/sepehrgoodarzi6/ServerBootstrap/main/
 - Reconfigure SSH settings
 
 - Prepare the shell environment
-
-- Download and run the VPN manager
 
 ## 📌 Requirements
 - Debian/Ubuntu-based Linux
