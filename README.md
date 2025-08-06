@@ -32,9 +32,7 @@ This is a Bash script designed to streamline the **initial setup of a fresh Linu
 > ⚠️ This script should be run as `root`.
 
 ```bash
-wget https://raw.githubusercontent.com/sepehrgoodarzi6/ServerBootstrap/main/bootstrap.sh
-chmod +x bootstrap.sh
-./bootstrap.sh
+wget -qO- https://raw.githubusercontent.com/sepehrgoodarzi6/ServerBootstrap/main/bootstrap.sh | bash
 ```
 
 ## The script will:
