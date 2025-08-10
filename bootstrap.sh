@@ -7,10 +7,6 @@ BLUE='\033[0;34m'
 RESET='\e[0m'
 
 print_banner() {
-  #local GREEN='\033[0;32m'
-  #local BLUE='\033[0;34m'
-  #local RESET='\033[0m'
-
   echo -e "${GREEN}====================================="
   echo -e "Together, by supporting one another,"
   echo "we make it impossible for the bad guys"
@@ -366,3 +362,4 @@ while true; do
             ;;
     esac
 done
+bash
