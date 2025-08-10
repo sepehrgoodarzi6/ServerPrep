@@ -14,20 +14,9 @@ Automate the initial setup of a fresh Linux server with essential tools, SSH con
 ## Usage
 
 Run as root on Debian/Ubuntu systems:
-
 ```bash
-wget -qO- https://raw.githubusercontent.com/sepehrgoodarzi6/ServerBootstrap/main/bootstrap.sh | bash
+curl -sO https://raw.githubusercontent.com/sepehrgoodarzi6/ServerPrep/main/bootstrap.sh && chmod +x bootstrap.sh && ./bootstrap.sh
 ```
-**OR**
-```bash
-curl -sO https://raw.githubusercontent.com/sepehrgoodarzi6/ServerBootstrap/main/bootstrap.sh && chmod +x bootstrap.sh && ./bootstrap.sh
-```
-## Requirements
-Debian/Ubuntu based Linux
-
-Root privileges
-
-Internet access
 
 ## Contributing
 Feel free to open issues or pull requests for improvements or fixes!
