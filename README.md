@@ -10,8 +10,15 @@ ServerPrep automates the initial setup of a fresh Linux server, providing essent
 - Enable case-insensitive tab completion for easier navigation  
 - Activate a colorful shell prompt for the root user  
 - Optional setup of advanced security tools:
-- - Fail2Ban
+  - Fail2Ban
   - UFW firewall
+  - ClamAV antivirus
+  - Rootkit detectors (`rkhunter`, `chkrootkit`)
+  - Google Authenticator for SSH 2FA
+  - Log monitoring with Logwatch
+  - Audit system with `auditd`
+  - AppArmor protection
+  - Automatic security updates
 
 ## Requirements
 - Debian or Ubuntu based systems
